@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6DC3BB;
+    background-image: url("shopping.jpg");
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+header{
+    color: blue;
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    font-size: xx-large;
+    font-weight: bold;
+    position: fixed;
+    top:10px;
+}
+.runtext{
+    color: #393D7E;
+    font-size: x-large;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    top: 50px;
+}
+.sections {
+    width:100%;
+    font-size: large;
+    font-weight: bold;
+    color: blueviolet;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top:120px;
+    margin-bottom: 200px; 
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.section-title-home{
+    font-size: small;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-style: dashed;
+    border-radius: 10%;
+    border-width: 2px;
+    border-color: rgb(24, 32, 32);
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+iframe{
+    width: 300px;
+    height: 200px;
+}
+.section-title-home > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-bottom: 10px;
+}
+.section-title-about{
+    font-size: small;
+    border-style: dotted;
+    border-radius: 10%;
+    border-width: 2px;
+    border-color: #393D7E;    
+}
+.section-title-about ul{
+    color: brown;
+    font-size: small;  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+.section-title-register {
+    font-size: small;
+    border-style: double;
+    border-radius: 10%;
+    border-width: 2px;  
+    border-color: chocolate;  
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+form button {
+    display: block;
+    margin: 0 auto;
+}
+.section-title-contact{
+    font-size: small;
+    border-style: groove;
+    border-radius: 10%;
+    border-width: 2px;    
+    border-color: aqua;    
+}
+#footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
