@@ -37,6 +37,7 @@ header{
 }
 
 h2{
+    grid-column: 1 / -1;  /*Used for merging 2 daugther grids in first tab only on first row*/ 
     display: flex;
     justify-content: center;
     text-decoration: underline;
@@ -111,4 +112,5 @@ form button {
     position: fixed;
     bottom: 0;
     width: 100%;
+
 }
